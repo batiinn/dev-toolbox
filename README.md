@@ -3,6 +3,8 @@
 > Geliştiriciler için **çevrimdışı** çalışan, gizlilik odaklı araç kutusu.
 > JSON, JWT, Base64, hash, regex ve 34 araç — hepsi tarayıcınızda. **Veriniz asla dışarı çıkmaz.**
 
+**🔗 Canlı demo: [batiinn.github.io/dev-toolbox](https://batiinn.github.io/dev-toolbox/)**
+
 [English below ↓](#-english)
 
 ---
@@ -52,6 +54,7 @@ npm run dev        # http://localhost:5173
 | `npm run build` | Üretim derlemesi (`dist/`) |
 | `npm run preview` | Derlemeyi yerelde önizle |
 | `npm run test` | Birim testlerini çalıştır |
+| `npm run deploy` | GitHub Pages'e yayınla (gh-pages dalı) |
 
 ### 🛠️ Teknoloji
 
