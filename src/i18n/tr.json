@@ -1,0 +1,200 @@
+{
+  "app": {
+    "title": "Dev Toolbox",
+    "tagline": "Geliştiriciler için çevrimdışı araç kutusu",
+    "search": "Araç ara",
+    "searchPlaceholder": "Araç ara... (JSON, JWT, Base64, hash...)",
+    "noResults": "Sonuç bulunamadı",
+    "loadError": "Araç yüklenemedi. Sayfayı yenileyip tekrar deneyin.",
+    "privacy": "Tüm işlemler tarayıcınızda yapılır. Verileriniz hiçbir sunucuya gönderilmez.",
+    "openSource": "Açık kaynak",
+    "recents": "Son kullanılanlar",
+    "badgeOffline": "Çevrimdışı çalışır",
+    "badgePrivacy": "Veri dışarı çıkmaz",
+    "badgeFast": "Hızlı ve reklamsız",
+    "home": "Ana sayfa",
+    "homeTitle": "Geliştiriciler için çevrimdışı araç kutusu",
+    "homeDesc": "Günlük geliştirici işleriniz için 25+ araç — JSON, JWT, Base64, hash, regex ve daha fazlası. Hepsi tarayıcınızda, internetsiz çalışır. Veriniz asla dışarı çıkmaz.",
+    "homeCta": "Bir araç seçin veya ⌘K / Ctrl+K ile arayın",
+    "toolCount": "araç",
+    "categories": {
+      "encode": "Kodlama / Çözme",
+      "generate": "Üreteçler",
+      "convert": "Dönüştürücüler",
+      "format": "Biçimlendiriciler",
+      "text": "Metin Araçları",
+      "web": "Web / Geliştirici"
+    }
+  },
+  "common": {
+    "input": "Girdi",
+    "output": "Çıktı",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "copyFailed": "Kopyalanamadı",
+    "clear": "Temizle",
+    "loadSample": "Örnek yükle",
+    "mode": "Mod",
+    "encode": "Kodla",
+    "decode": "Çöz",
+    "direction": "Yön",
+    "version": "Sürüm",
+    "inputPlaceholder": "Metni buraya yapıştırın..."
+  },
+  "generate": {
+    "count": "Adet",
+    "generate": "Üret",
+    "regenerate": "Yeniden üret",
+    "length": "Uzunluk",
+    "lowercase": "Küçük harf (a-z)",
+    "uppercase": "Büyük harf (A-Z)",
+    "numbers": "Rakam (0-9)",
+    "symbols": "Sembol (!@#)",
+    "avoidAmbiguous": "Karışık karakterleri çıkar",
+    "paragraphs": "Paragraf sayısı",
+    "downloadPng": "PNG indir"
+  },
+  "convert": {
+    "delimiter": "Ayraç",
+    "comma": "Virgül",
+    "semicolon": "Noktalı virgül",
+    "tab": "Sekme",
+    "unixTimestamp": "Unix zaman damgası",
+    "tsHint": "Saniye veya milisaniye (otomatik algılanır)",
+    "now": "Şu an",
+    "local": "Yerel saat",
+    "relative": "Göreli",
+    "dateString": "Tarih metni",
+    "seconds": "Saniye",
+    "millis": "Milisaniye",
+    "value": "Değer",
+    "fromBase": "Kaynak taban"
+  },
+  "color": {
+    "hint": "HEX, renk seçici veya elle değer girin."
+  },
+  "format": {
+    "beautify": "Düzenle (beautify)",
+    "minify": "Küçült (minify)",
+    "indent": "Girinti"
+  },
+  "case": {
+    "upper": "BÜYÜK HARF",
+    "lower": "küçük harf",
+    "title": "Başlık Biçimi",
+    "sentence": "Cümle biçimi",
+    "camel": "camelCase",
+    "snake": "snake_case",
+    "kebab": "kebab-case",
+    "constant": "CONSTANT_CASE"
+  },
+  "lines": {
+    "sort": "Sırala",
+    "sortNone": "Sıralama yok",
+    "dedupe": "Tekrarları sil",
+    "trim": "Boşlukları kırp",
+    "removeEmpty": "Boş satırları sil"
+  },
+  "diff": {
+    "original": "Orijinal",
+    "changed": "Değişmiş",
+    "added": "eklendi",
+    "removed": "silindi"
+  },
+  "regex": {
+    "pattern": "Desen (pattern)",
+    "flags": "Bayraklar",
+    "testString": "Test metni",
+    "matchCount": "eşleşme bulundu"
+  },
+  "cron": {
+    "expression": "Cron ifadesi",
+    "nextRuns": "Sıradaki çalışmalar"
+  },
+  "stats": {
+    "characters": "Karakter",
+    "charactersNoSpaces": "Karakter (boşluksuz)",
+    "words": "Kelime",
+    "lines": "Satır",
+    "sentences": "Cümle",
+    "paragraphs": "Paragraf",
+    "bytes": "Bayt (UTF-8)",
+    "readingTime": "Okuma süresi"
+  },
+  "markdown": {
+    "preview": "Önizleme"
+  },
+  "hash": {
+    "chooseFile": "Dosya seç"
+  },
+  "image": {
+    "choose": "Resim seç",
+    "dataUri": "Data URI",
+    "copyDataUri": "Data URI kopyala",
+    "copyCss": "CSS olarak kopyala"
+  },
+  "chmod": {
+    "owner": "Sahip",
+    "group": "Grup",
+    "other": "Diğer",
+    "read": "Oku (r)",
+    "write": "Yaz (w)",
+    "exec": "Çalıştır (x)",
+    "symbolic": "Sembolik"
+  },
+  "cssunits": {
+    "base": "Temel font (px)"
+  },
+  "http": {
+    "search": "Kod veya isim ara (404, not found...)"
+  },
+  "palette": {
+    "shades": "Tonlar (açıktan koyuya)",
+    "harmony": "Uyumlu renkler",
+    "hint": "Bir renge tıklayarak kopyalayın."
+  },
+  "url": {
+    "protocol": "Protokol",
+    "hostname": "Sunucu adı",
+    "port": "Port",
+    "path": "Yol",
+    "hash": "Çapa (hash)",
+    "params": "Sorgu parametreleri"
+  },
+  "tools": {
+    "base64": { "name": "Base64 Kodla / Çöz", "desc": "Metni Base64'e çevirin veya geri çözün. UTF-8 ve emoji destekli." },
+    "url": { "name": "URL Kodla / Çöz", "desc": "URL bileşenlerini güvenli biçimde kodlayın veya çözün (percent-encoding)." },
+    "html": { "name": "HTML Entity Kodla / Çöz", "desc": "Özel karakterleri HTML varlıklarına çevirin (&lt;, &amp; ...) veya geri alın." },
+    "jwt": { "name": "JWT Çözücü", "desc": "JWT token'ın header ve payload'ını okuyun. İmza doğrulanmaz, veri tarayıcıdan çıkmaz." },
+    "json-escape": { "name": "JSON String Escape", "desc": "Metni JSON string içine gömülebilecek şekilde escape edin veya geri çözün." },
+    "image-base64": { "name": "Resim → Base64", "desc": "Bir resmi Base64 data URI'ye çevirin; HTML/CSS'e gömmek için hazır çıktı alın." },
+    "uuid": { "name": "UUID Üreteci", "desc": "Rastgele (v4) veya zaman sıralı (v7) UUID/GUID üretin." },
+    "password": { "name": "Parola Üreteci", "desc": "Kriptografik olarak güçlü, özelleştirilebilir parolalar oluşturun." },
+    "hash": { "name": "Hash Üreteci", "desc": "Metnin MD5, SHA-1, SHA-256 ve SHA-512 özetlerini hesaplayın." },
+    "lorem": { "name": "Lorem Ipsum", "desc": "Tasarım ve test için yer tutucu metin üretin." },
+    "qr": { "name": "QR Kod Üreteci", "desc": "Metin veya bağlantıdan QR kod oluşturup PNG olarak indirin." },
+    "json-yaml": { "name": "JSON ↔ YAML", "desc": "JSON ve YAML formatları arasında çift yönlü dönüşüm." },
+    "json-csv": { "name": "JSON → CSV", "desc": "Nesne dizisini CSV veya TSV tablosuna dönüştürün (Excel uyumlu)." },
+    "timestamp": { "name": "Zaman Damgası Dönüştürücü", "desc": "Unix zaman damgası ile okunabilir tarih arasında dönüştürün." },
+    "base": { "name": "Sayı Tabanı Dönüştürücü", "desc": "İkilik, sekizlik, onluk ve onaltılık tabanlar arası dönüşüm." },
+    "color": { "name": "Renk Dönüştürücü", "desc": "HEX, RGB ve HSL renk formatları arasında dönüşüm yapın." },
+    "color-palette": { "name": "Renk Paleti Üreteci", "desc": "Bir renkten ton skalası ve uyumlu (tümleyen, analog, triadik) renkler üretin." },
+    "css-units": { "name": "CSS Birim Dönüştürücü", "desc": "px, rem ve em birimleri arasında dönüşüm yapın (temel font boyutuna göre)." },
+    "json-format": { "name": "JSON Biçimlendirici", "desc": "JSON'u okunabilir hale getirin (beautify) veya küçültün (minify) ve doğrulayın." },
+    "sql-format": { "name": "SQL Biçimlendirici", "desc": "Karışık SQL sorgularını okunabilir, düzenli biçime getirin." },
+    "xml-format": { "name": "XML Biçimlendirici", "desc": "XML / SOAP / RSS içeriğini girintili ve okunabilir hale getirin." },
+    "markdown": { "name": "Markdown Önizleme", "desc": "Markdown metnini canlı olarak HTML çıktısıyla yan yana görüntüleyin." },
+    "case": { "name": "Harf Biçimi Dönüştürücü", "desc": "Metni camelCase, snake_case, kebab-case ve daha fazlasına çevirin. Türkçe uyumlu." },
+    "lines": { "name": "Satır İşlemleri", "desc": "Satırları sıralayın, tekrarları silin, boşlukları kırpın." },
+    "slugify": { "name": "Slug Oluşturucu", "desc": "Başlıkları URL ve SEO dostu slug'lara çevirin. Türkçe karakter uyumlu." },
+    "deasciify": { "name": "Türkçe → ASCII", "desc": "Türkçe karakterleri ASCII karşılıklarına çevirin (ç→c, ş→s, ğ→g...)." },
+    "diff": { "name": "Metin Karşılaştırma", "desc": "İki metni satır satır karşılaştırın, ekleme ve silmeleri görün." },
+    "text-stats": { "name": "Metin İstatistikleri", "desc": "Karakter, kelime, satır, cümle, bayt sayısı ve okuma süresini hesaplayın." },
+    "regex": { "name": "Regex Test Aracı", "desc": "Düzenli ifadeleri canlı olarak test edin, eşleşmeleri vurgulayın." },
+    "cron": { "name": "Cron Açıklayıcı", "desc": "Cron ifadelerini Türkçe açıklamaya çevirin." },
+    "url-parse": { "name": "URL Çözümleyici", "desc": "Bir URL'yi protokol, host, yol ve sorgu parametrelerine ayırın." },
+    "curl": { "name": "cURL → fetch", "desc": "Bir curl komutunu eşdeğer JavaScript fetch() koduna çevirin." },
+    "chmod": { "name": "chmod Hesaplayıcı", "desc": "Unix dosya izinlerini octal (755) ve sembolik (rwxr-xr-x) olarak hesaplayın." },
+    "http-status": { "name": "HTTP Durum Kodları", "desc": "HTTP durum kodlarını Türkçe açıklamalarıyla arayın (404, 500, 301...)." }
+  }
+}

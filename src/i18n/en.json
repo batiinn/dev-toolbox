@@ -1,0 +1,200 @@
+{
+  "app": {
+    "title": "Dev Toolbox",
+    "tagline": "Offline toolbox for developers",
+    "search": "Search tools",
+    "searchPlaceholder": "Search tools... (JSON, JWT, Base64, hash...)",
+    "noResults": "No results",
+    "loadError": "Failed to load the tool. Refresh the page and try again.",
+    "privacy": "Everything runs in your browser. Your data is never sent to any server.",
+    "openSource": "Open source",
+    "recents": "Recently used",
+    "badgeOffline": "Works offline",
+    "badgePrivacy": "Data never leaves",
+    "badgeFast": "Fast & ad-free",
+    "home": "Home",
+    "homeTitle": "Offline toolbox for developers",
+    "homeDesc": "25+ tools for your daily developer tasks — JSON, JWT, Base64, hash, regex and more. All in your browser, works offline. Your data never leaves the page.",
+    "homeCta": "Pick a tool or search with ⌘K / Ctrl+K",
+    "toolCount": "tools",
+    "categories": {
+      "encode": "Encode / Decode",
+      "generate": "Generators",
+      "convert": "Converters",
+      "format": "Formatters",
+      "text": "Text Tools",
+      "web": "Web / Developer"
+    }
+  },
+  "common": {
+    "input": "Input",
+    "output": "Output",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFailed": "Copy failed",
+    "clear": "Clear",
+    "loadSample": "Load sample",
+    "mode": "Mode",
+    "encode": "Encode",
+    "decode": "Decode",
+    "direction": "Direction",
+    "version": "Version",
+    "inputPlaceholder": "Paste your text here..."
+  },
+  "generate": {
+    "count": "Count",
+    "generate": "Generate",
+    "regenerate": "Regenerate",
+    "length": "Length",
+    "lowercase": "Lowercase (a-z)",
+    "uppercase": "Uppercase (A-Z)",
+    "numbers": "Numbers (0-9)",
+    "symbols": "Symbols (!@#)",
+    "avoidAmbiguous": "Avoid ambiguous chars",
+    "paragraphs": "Paragraphs",
+    "downloadPng": "Download PNG"
+  },
+  "convert": {
+    "delimiter": "Delimiter",
+    "comma": "Comma",
+    "semicolon": "Semicolon",
+    "tab": "Tab",
+    "unixTimestamp": "Unix timestamp",
+    "tsHint": "Seconds or milliseconds (auto-detected)",
+    "now": "Now",
+    "local": "Local time",
+    "relative": "Relative",
+    "dateString": "Date string",
+    "seconds": "Seconds",
+    "millis": "Milliseconds",
+    "value": "Value",
+    "fromBase": "From base"
+  },
+  "color": {
+    "hint": "Enter a HEX value, use the picker, or type manually."
+  },
+  "format": {
+    "beautify": "Beautify",
+    "minify": "Minify",
+    "indent": "Indent"
+  },
+  "case": {
+    "upper": "UPPERCASE",
+    "lower": "lowercase",
+    "title": "Title Case",
+    "sentence": "Sentence case",
+    "camel": "camelCase",
+    "snake": "snake_case",
+    "kebab": "kebab-case",
+    "constant": "CONSTANT_CASE"
+  },
+  "lines": {
+    "sort": "Sort",
+    "sortNone": "No sorting",
+    "dedupe": "Remove duplicates",
+    "trim": "Trim whitespace",
+    "removeEmpty": "Remove empty lines"
+  },
+  "diff": {
+    "original": "Original",
+    "changed": "Changed",
+    "added": "added",
+    "removed": "removed"
+  },
+  "regex": {
+    "pattern": "Pattern",
+    "flags": "Flags",
+    "testString": "Test string",
+    "matchCount": "matches found"
+  },
+  "cron": {
+    "expression": "Cron expression",
+    "nextRuns": "Next runs"
+  },
+  "stats": {
+    "characters": "Characters",
+    "charactersNoSpaces": "Characters (no spaces)",
+    "words": "Words",
+    "lines": "Lines",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "bytes": "Bytes (UTF-8)",
+    "readingTime": "Reading time"
+  },
+  "markdown": {
+    "preview": "Preview"
+  },
+  "hash": {
+    "chooseFile": "Choose file"
+  },
+  "image": {
+    "choose": "Choose image",
+    "dataUri": "Data URI",
+    "copyDataUri": "Copy data URI",
+    "copyCss": "Copy as CSS"
+  },
+  "chmod": {
+    "owner": "Owner",
+    "group": "Group",
+    "other": "Other",
+    "read": "Read (r)",
+    "write": "Write (w)",
+    "exec": "Execute (x)",
+    "symbolic": "Symbolic"
+  },
+  "cssunits": {
+    "base": "Base font (px)"
+  },
+  "http": {
+    "search": "Search code or name (404, not found...)"
+  },
+  "palette": {
+    "shades": "Shades (light to dark)",
+    "harmony": "Harmony colors",
+    "hint": "Click a color to copy it."
+  },
+  "url": {
+    "protocol": "Protocol",
+    "hostname": "Hostname",
+    "port": "Port",
+    "path": "Path",
+    "hash": "Hash",
+    "params": "Query parameters"
+  },
+  "tools": {
+    "base64": { "name": "Base64 Encode / Decode", "desc": "Convert text to Base64 or back. UTF-8 and emoji safe." },
+    "url": { "name": "URL Encode / Decode", "desc": "Safely encode or decode URL components (percent-encoding)." },
+    "html": { "name": "HTML Entity Encode / Decode", "desc": "Escape special characters to HTML entities (&lt;, &amp; ...) or back." },
+    "jwt": { "name": "JWT Decoder", "desc": "Read a JWT's header and payload. Signature is not verified; data stays in your browser." },
+    "json-escape": { "name": "JSON String Escape", "desc": "Escape text to embed inside a JSON string, or unescape it back." },
+    "image-base64": { "name": "Image → Base64", "desc": "Convert an image to a Base64 data URI, ready to embed in HTML/CSS." },
+    "uuid": { "name": "UUID Generator", "desc": "Generate random (v4) or time-ordered (v7) UUID/GUID values." },
+    "password": { "name": "Password Generator", "desc": "Create cryptographically strong, customizable passwords." },
+    "hash": { "name": "Hash Generator", "desc": "Compute MD5, SHA-1, SHA-256 and SHA-512 digests of text." },
+    "lorem": { "name": "Lorem Ipsum", "desc": "Generate placeholder text for design and testing." },
+    "qr": { "name": "QR Code Generator", "desc": "Create a QR code from text or a link and download as PNG." },
+    "json-yaml": { "name": "JSON ↔ YAML", "desc": "Two-way conversion between JSON and YAML." },
+    "json-csv": { "name": "JSON → CSV", "desc": "Convert an array of objects to CSV or TSV (Excel compatible)." },
+    "timestamp": { "name": "Timestamp Converter", "desc": "Convert between Unix timestamps and human-readable dates." },
+    "base": { "name": "Number Base Converter", "desc": "Convert between binary, octal, decimal and hexadecimal." },
+    "color": { "name": "Color Converter", "desc": "Convert between HEX, RGB and HSL color formats." },
+    "color-palette": { "name": "Color Palette Generator", "desc": "Generate a tonal scale and harmony (complementary, analogous, triadic) colors from one color." },
+    "css-units": { "name": "CSS Unit Converter", "desc": "Convert between px, rem and em based on the root font size." },
+    "json-format": { "name": "JSON Formatter", "desc": "Beautify or minify JSON and validate it." },
+    "sql-format": { "name": "SQL Formatter", "desc": "Turn messy SQL queries into clean, readable formatting." },
+    "xml-format": { "name": "XML Formatter", "desc": "Indent and prettify XML / SOAP / RSS content." },
+    "markdown": { "name": "Markdown Preview", "desc": "Render Markdown live, side by side with its HTML output." },
+    "case": { "name": "Case Converter", "desc": "Convert text to camelCase, snake_case, kebab-case and more. Turkish aware." },
+    "lines": { "name": "Line Tools", "desc": "Sort lines, remove duplicates, trim whitespace." },
+    "slugify": { "name": "Slug Generator", "desc": "Turn titles into URL and SEO friendly slugs. Turkish character aware." },
+    "deasciify": { "name": "Turkish → ASCII", "desc": "Convert Turkish characters to ASCII equivalents (ç→c, ş→s, ğ→g...)." },
+    "diff": { "name": "Text Diff", "desc": "Compare two texts line by line and see additions and deletions." },
+    "text-stats": { "name": "Text Statistics", "desc": "Count characters, words, lines, sentences, bytes and reading time." },
+    "regex": { "name": "Regex Tester", "desc": "Test regular expressions live and highlight matches." },
+    "cron": { "name": "Cron Explainer", "desc": "Translate cron expressions into plain language." },
+    "url-parse": { "name": "URL Parser", "desc": "Break a URL into protocol, host, path and query parameters." },
+    "curl": { "name": "cURL → fetch", "desc": "Convert a curl command into equivalent JavaScript fetch() code." },
+    "chmod": { "name": "chmod Calculator", "desc": "Compute Unix file permissions in octal (755) and symbolic (rwxr-xr-x)." },
+    "http-status": { "name": "HTTP Status Codes", "desc": "Search HTTP status codes with plain-language descriptions (404, 500, 301...)." }
+  }
+}
